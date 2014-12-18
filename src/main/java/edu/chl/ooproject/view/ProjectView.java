@@ -12,7 +12,7 @@ public class ProjectView extends JFrame {
    
     private final JButton button = new JButton(Project.PROJECT_BUTTON_TEXT);
     private final JLabel pressesLabel;
-    
+    private JLabel lbl22;
 
     public ProjectView(Project project) {
         super(Project.PROJECT_WINDOW_TEXT);
