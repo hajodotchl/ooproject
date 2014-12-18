@@ -9,14 +9,15 @@ import javax.swing.SwingConstants;
 
 public class ProjectView extends JFrame {
 
+
     
     private JButton ylfva;
     private JButton ylfva2;
     private JButton ylfva3_1;
+
     private final JButton button = new JButton(Project.PROJECT_BUTTON_TEXT);
     private final JLabel pressesLabel;
-    private JLabel byHajo;
-    private JLabel byHajo2;
+    
 
     public ProjectView(Project project) {
         super(Project.PROJECT_WINDOW_TEXT);
