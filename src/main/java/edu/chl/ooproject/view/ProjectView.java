@@ -9,6 +9,7 @@ import javax.swing.SwingConstants;
 
 public class ProjectView extends JFrame {
 
+    private JButton ylfva;
     private final JButton button = new JButton(Project.PROJECT_BUTTON_TEXT);
     private final JLabel pressesLabel;
 
